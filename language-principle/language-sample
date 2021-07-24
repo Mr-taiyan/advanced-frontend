@@ -1,0 +1,8 @@
+"a"
+
+"b"
+
+<Program>:="a"+ | "b" +
+<Program>:= <Program> "a"+ | <Program> "b"+
+
+ababbbba
