@@ -26,3 +26,6 @@ ababbbba
 <LogicalExpression> = <AdditiveExpression> | 
     <LogicalExpression> "||" <AdditiveExpression> |
     <LogicalExpression> "&&" <AdditiveExpression>
+
+<ExpExpression> = <MultiplicativeExpression> 
+    | <MultiplicativeExpression> "**" <ExpExpression>
